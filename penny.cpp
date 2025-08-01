@@ -37,8 +37,31 @@ int main (){
 
     penny = balance;
     cout << "You have " << penny << " pennies" << endl;
-   
 
+    cout<<endl;
+    cout<<"-----------------------------------------------------"<<endl;    
+    cout<<endl;
+    
+//   it can alernatively be written as:
+
+     dollar = cent / dollar_value;
+     balance = cent- dollar * dollar_value;
+     cout << "You have " << dollar << " dollars" << endl;
+
+     quarter = balance / quarter_value;
+     balance -= quarter * quarter_value;
+     cout << "You have " << quarter << " quarters" << endl;
+
+        dime = balance / dime_value;
+        balance -= dime * dime_value;
+        cout << "You have " << dime << " dimes" << endl;
+
+        nickel = balance / nickel_value;
+        balance -= nickel * nickel_value;       
+        cout << "You have " << nickel << " nickels" << endl;
+
+        penny = balance;
+        cout << "You have " << penny << " pennies" << endl; 
 
     return 0;
 }
